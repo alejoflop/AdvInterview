@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@300;400;800&family=Nunito:wght@300;400;800;1000&family=Poppins:wght@200&family=Share+Tech+Mono&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+/* hambuerguesa */
+.tech-skill-menu {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 900;
+}
+.tech-skill-navbar{
+  background-color: #ffffff;
+  height: 50px;
+  padding: 10px 12px;
+  position: relative;
+  transition: 0.2s;
+}
+
+.tech-skill-checkbox, .tech-skill-icons-menu{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:10px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.tech-skill-icons-menu{
+  pointer-events: none;
+  width: 50px;
+  height: 50px;
+}
+.tech-skill-checkbox{
+  opacity: 0;
+}
+/* oculta el checkbox */
+.tech-skill-close-menu-logo{
+  display: none;
+  
+}
+/* validacion menu abierto cerrado */
+.tech-skill-checkbox:checked~ .tech-skill-open-menu{
+  display: none;
+}
+.tech-skill-checkbox:checked~ .tech-skill-close-menu{
+  display: flex;
+}
+
+.tech-skill-menu{
+  
+  width: 320px;
+  position: absolute;
+  top: 60px;
+  left: -300px;
+  display: none;
+  
+}
+
+.tech-skill-menu li{
+  list-style: none;
+}
+.tech-skill-menu li a{
+  text-decoration: none;
+  background-color: #ffffff;
+  display: block;
+  padding: 10px 15px;
+}
+.tech-skill-menu li a:hover{
+  background-color: #dcd9d9;
+}
+
+.tech-skill-checkbox:checked~ .menu{
+  display: block;
+}
+
+
+/* fin hamburguesa */
+
+/* body */
+
+.tech-skill-home .tech-skill-home-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+.tech-skill-home .tech-skill-home-content .tech-skill-technical-skills-title h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 1000;
+  letter-spacing: 0.1px;
+}
+
+/* contenido tech skills python */
+.tech-skill-home .tech-skill-home-content .tech-skill-bg-tech-skills {
+  display: flex;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #57c278;
+  justify-content: center;
+  transition: 0.9s;
+}
+
+.tech-skill-home .tech-skill-home-content .tech-skill-bg-tech-skills-title p {
+  text-align: justify;
+}
+
+.tech-skill-python-img {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+}
+
+/* elementos basicos python */
+
+.tech-skill-navbar {
+  background-color: #ffffff;
+  height: 50px;
+  padding: 10px 12px;
+  position: relative;
+  transition: 0.2s;
+}
+
+.tech-skill-menu li {
+  list-style: none;
+}
+.tech-skill-menu li a {
+  text-decoration: none;
+  background-color: #ffffff;
+  display: block;
+  padding: 10px 15px;
+}
+.tech-skill-menu li a:hover {
+  background-color: #dcd9d9;
+}
+
+/* multimedia */
+
+.tech-skill-frame-youtube {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  padding: 300px;
+  justify-content: center;
+  flex-direction: column;
+}
