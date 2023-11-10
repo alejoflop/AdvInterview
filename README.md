@@ -20,9 +20,9 @@ Todo esto se logra utilizando las bases de HTTP y mockapi.io como base de datos,
 
 
 
-# 🧔🏻🧔🏻👩🏻‍🦰 Proyecto Diseñado y Desarrollado por:
+# 👩🏻‍🦰🧔🏻🧔🏻 Proyecto Diseñado y Desarrollado por:
    
-<div display="flex">
+<div display="flex" gap="20px">
      <a href="#">Sara Ruiz</a>
      <a href="https://juansefdz.com/" target="_blank">J. Sebastián Fernández</a>
      <a href="https://alejoflop.github.io/Alejandro.dev/" target="_blank">Alejandro Florez</a>
