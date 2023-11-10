@@ -22,6 +22,8 @@ Todo esto se logra utilizando las bases de HTTP y mockapi.io como base de datos,
 
 # 🧔🏻🧔🏻👩🏻‍🦰 Proyecto Diseñado y Desarrollado por:
    
-[![Linkedin](https://raw.githubusercontent.com/alejoflop/ChallengeEncriptador/main/imagenes/linkedin.svg)](https://www.linkedin.com/in/alejandroflorezl/)
-
-[![GitHub](https://raw.githubusercontent.com/alejoflop/ChallengeEncriptador/main/imagenes/github.svg)](https://github.com/alejoflop)
+<div display="flex">
+     <a href="#">Sara Ruiz</a>
+     <a href="https://juansefdz.com/" target="_blank">J. Sebastián Fernández</a>
+     <a href="https://alejoflop.github.io/Alejandro.dev/" target="_blank">Alejandro Florez</a>
+</div>
